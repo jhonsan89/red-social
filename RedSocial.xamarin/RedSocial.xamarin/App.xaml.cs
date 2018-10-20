@@ -1,3 +1,4 @@
+using RedSocial.xamarin.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -11,7 +12,7 @@ namespace RedSocial.xamarin
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new FacebookPage();
 		}
 
 		protected override void OnStart ()
