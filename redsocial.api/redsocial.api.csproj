@@ -193,6 +193,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810201628181_ModeloInical.cs" />
+    <Compile Include="Migrations\201810201628181_ModeloInical.Designer.cs">
+      <DependentUpon>201810201628181_ModeloInical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\PublicacionContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -287,6 +292,11 @@
       <Project>{B1937A16-25EF-4CE7-AD72-B800D36139D8}</Project>
       <Name>Redsocial.dominio</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201810201628181_ModeloInical.resx">
+      <DependentUpon>201810201628181_ModeloInical.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
